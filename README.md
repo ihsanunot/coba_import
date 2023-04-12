@@ -43,3 +43,17 @@ ssh-keygen -t ed25519 -C "your_email@example.com"
 It still allows using rsa for systems that don't support Ed25519
 
 ssh-keygen -t rsa -b 4096 -C “youremail@example.com”
+
+## Contoh Compile file exe windows di dart
+
+dart compile exe bin/namafile.dart -o nama-app
+
+habis itu nanti jadi file nya apptestnya (Windows)
+
+bisa di running di terminal dgn cara :
+./hasilcompile
+
+Karena saya pilih nama nya 'apptestnya'
+maka saya tinggal ketik ./apptestnya
+
+nanti muncul output hasil file yg di compile nya.
