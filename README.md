@@ -33,3 +33,13 @@ untuk menghindari nama function atau nama package dll yang konflik atau duplikat
 contoh nya di folder bin/coba_import.dart
 
 as belajar itu jadi prefix nya.
+
+## Referensi pas Push ke github :
+https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent#adding-your-ssh-key-to-the-ssh-agent
+
+Generate key pair, github prefers the "Ed25519 algorithm"
+
+ssh-keygen -t ed25519 -C "your_email@example.com"
+It still allows using rsa for systems that don't support Ed25519
+
+ssh-keygen -t rsa -b 4096 -C “youremail@example.com”
